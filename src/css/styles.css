@@ -1,35 +1,174 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+/* Global */
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
-@import url('./burger.css');
-@import url('./font-face.css');
-@import url('./reset.css');
-@import url('./header.css');
-@import url('./hero.css');
-@import url('./about_us.css');
-@import url('./catalog.css');
-@import url('./new_watches.css');
-@import url('./sales.css');
-@import url('./footer.css');
-@import url('./buy_now.css');
+body {
+     background-color: #091505;
+    color: #5cdc3c;
+    background: linear-gradient(to right, #868685, #1c1c1c);
+    font-family: 'Roboto', sans-serif;
+}
 
 
-:root {
-  --primary-font: 'Epilogue-Regular';
-  --second-font: 'Epilogue-Light';
-  --lighting-color: #141414;
-  --second-color: #ffffff;
-  --color-text-desc: #14141480;
-  --footer-color-lower: #c6cdd1;
-  --hover-color-desc: #ffffff80;
-  --mobile-menu-background-color: #1e2827;
-  /*У кнопок такий же колір*/
-  --anim-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /*Взяв з дз*/
-  --svg-border: 1px solid rgba(255, 255, 255, 0.1);
-  --svg-border-hover: 1px solid #ffffff;
+
+.link {
+    text-decoration-line: none;
+    list-style: none;
+    font-style: normal;
+}
+
+a {
+    text-decoration-line: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text-paragraf);
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.section{
+    display: block;
+    width: 320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+}
+
+.time {
+    margin: 0;
+    padding: 0;
+   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    /* Добавьте стили для .title */
+}
+
+.observ {
+   
+    padding-right: 12px;
+    padding-left: 12px;
+   
+    text-align: center;
+    width: 320px;
+    z-index: 999;
+}
+.background{
+
+
+}
+.hello {
+    /* Добавьте стили для .hello */
+}
+
+.opis {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    z-index: 999;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: relative */
+}
+
+.button-menu {
+    color: #5cdc3c;
+    display: block;
+   
+   
+}
+
+.img-hero-gold {
+    display: block;
+    margin: 0;
+background-image: url(/photo_2024-04-15_18-14-42.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 300px;
+     /* margin-left: auto;
+    margin-right: auto; */
+  /* position: absolute */
+  
+  
+
+}
+.img-hero {
+    display: block;
+    margin: 0;
+    width: 280px;
+    height: 300px;
+    background-color: #fff;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+        
+}
+
+.second-title {
+    /* Добавьте стили для .second-title */
+}
+
+.second-opis {
+      z-index: 999;
+    position: relative
+    /* Добавьте стили для .second-opis */
+}
+
+.theth-title {
+    /* Добавьте стили для .theth-title */
+}
+
+.theth-opis {
+    /* Добавьте стили для .theth-opis */
+}
+
+.img-dishes {
+    display: block;
+}
+
+.footer {
+    /* Добавьте стили для .footer */
+}
+
+.footer-block {
+    /* Добавьте стили для .footer-block */
 }
